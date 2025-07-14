@@ -3,4 +3,102 @@
 
 .body{
     display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-family: Roboto,'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: #f9faf8;
+
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+
+    gap: 16px;
+}
+
+li{
+    font-family: Roboto,'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    background-color: #1f2937;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px;
+    height: 300px;
+    border: solid;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.main-text{
+    width: 50%;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.secondary{
+    width: 50%;
+    display: flex;
+    font-size: 18px;
+    color: #e5e8eb;
+    margin-left: 5px;
+    flex-direction: column;
+    align-self: end;
+    margin-top: -60px;
+}
+
+button{
+
+    color: #3882F6;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    align-self: start;
+    margin-top: -16px;
+    padding: 4px 37px;
+    font-family: Roboto,'Times New Roman', Times, serif
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+}
+
+.hero-image img {
+  width: 500px;
+  height: auto;
+  object-fit: cover;
+  background-color: #6b7280; /* matches gray placeholder */
+  text-align: center;
 }
