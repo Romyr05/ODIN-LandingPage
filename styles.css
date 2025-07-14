@@ -1,104 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');  /* importing ROBOTO in css */
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .body{
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
+    font-family: Roboto,'Times New Roman', Times, serif;
 }
 
 .head{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 60px;
     width: 100%;
     background-color: #1f2937;
+
 }
 
 .logo{
     font-family: Roboto,'Times New Roman', Times, serif;
     font-size: 24px;
     color: #f9faf8;
-
+    font-weight: bold;
 }
-
 
 ul{
     display: flex;
     list-style-type: none;
-
     gap: 16px;
 }
 
 li{
     font-family: Roboto,'Times New Roman', Times, serif;
     font-size: 18px;
+
 }
 
 a{
     text-decoration: none;
-}
-
-.main{
-    background-color: #1f2937;
+    color: #e5e7eb;
 }
 
 .hero{
+    background-color: #1f2937;
     display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 100px;
-    height: 300px;
-    border: solid;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    gap: 40px;
+    height: 450px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.main-text{
-    width: 50%;
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 0 0 30%;
+    margin-bottom: 50px;
+}
+
+.first{
+    width: 80%;
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
 }
 
 .secondary{
-    width: 50%;
-    display: flex;
-    font-size: 18px;
-    color: #e5e8eb;
-    margin-left: 5px;
-    flex-direction: column;
-    align-self: end;
-    margin-top: -60px;
+    width: 100%;
+    font-size:18px;
+    color: #e5e7eb;
 }
 
-button{
-
-    color: #3882F6;
+.button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border:none;
+    align-self:flex-start;
+    padding: 4px 33px;
     border-radius: 8px;
-    cursor: pointer;
-    font-size: 18px;
-    align-self: start;
-    margin-top: -16px;
-    padding: 4px 37px;
-    font-family: Roboto,'Times New Roman', Times, serif
+    font-weight: bold;
+    font-family: Roboto,'Times New Roman', Times, serif;
 }
 
-.text-container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  gap: 20px;
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
-.hero-image img {
-  width: 500px;
-  height: auto;
-  object-fit: cover;
-  background-color: #6b7280; /* matches gray placeholder */
-  text-align: center;
+.hero-image img{
+    height: 250px;
+    width: 525px;
 }
+
+
+
+
