@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto,'Times New Roman', Times, serif;
 }
+
 
 .body{
     display: flex;
     flex-direction: column;
-    font-family: Roboto,'Times New Roman', Times, serif;
 }
 
 .head{
@@ -128,7 +129,7 @@ a{
     margin-top: -70px;
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 165px;
     justify-content: center;
 }
 
@@ -142,13 +143,38 @@ a{
 }
 
 .card p{
-    text-align: center;
+    align-self: flex-end;
     font-size: 18px;
     color: #1f2937;
+    text-align: center;
 }
 
 .quote{
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
     height: 500px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 0;
 }
 
+.main-quote{
+    display: flex;
+    width: 60%;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-left:125px;
+    padding-right: 120px;
+}
+
+.author{
+    width: 40%;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+    color: #1f2937;
+}
