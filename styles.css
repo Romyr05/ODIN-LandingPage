@@ -178,3 +178,51 @@ a{
     font-weight: 900;
     color: #1f2937;
 }
+
+.sign-up{
+    display: flex;
+    height: 325px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sg-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+
+    width: 65%;
+    height: 150px;
+    background-color: #3882f6;
+}
+
+.texts{
+    margin-top: 50px;
+    gap:0px
+}
+
+.action{
+    color: #e5e7eb;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sign{
+    width: 500px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
+.sg-button{
+    color: #e5e7eb;
+    border:solid;
+
+    padding: 4px 33px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: Roboto,'Times New Roman', Times, serif;    
+}
+ 
+
