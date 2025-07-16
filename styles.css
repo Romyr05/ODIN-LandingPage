@@ -28,12 +28,14 @@
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    margin-left: -8px;
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 30px;
+    margin-left: -90px;
 }
 
 li{
@@ -45,6 +47,7 @@ li{
 a{
     text-decoration: none;
     color: #e5e7eb;
+    font-weight: 300;
 }
 
 .hero{
@@ -83,7 +86,7 @@ a{
     color: #e5e7eb;
     border:none;
     align-self:flex-start;
-    padding: 4px 33px;
+    padding: 8px 33px;
     border-radius: 8px;
     font-weight: bold;
     font-family: Roboto,'Times New Roman', Times, serif;
@@ -135,7 +138,7 @@ a{
 
 .card div{
     margin-bottom: 5px;
-    height: 150px;
+    height: 165px;
     border-radius: 16px;
     border: solid;
     border-width: 4px;
@@ -198,7 +201,7 @@ a{
     background-color: #3882f6;
 }
 
-.texts{
+.sg-texts{
     margin-top: 50px;
     gap:0px
 }
@@ -218,11 +221,28 @@ a{
 .sg-button{
     color: #e5e7eb;
     border:solid;
-
     padding: 4px 33px;
     border-radius: 6px;
     font-weight: bold;
     font-family: Roboto,'Times New Roman', Times, serif;    
 }
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 50px;
+}
+
+
+
  
 
